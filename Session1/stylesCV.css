@@ -1,0 +1,40 @@
+.container
+{
+	width:1330px;
+	height:300px;
+	border: 1px solid brown;
+}
+#avatar
+{
+	
+	width:500px;
+	float:left;
+}
+#information
+{
+	width: 460px;
+	float:right;
+	margin-right: 100px;
+
+}
+#PersonalProfile
+{
+	width: 350px;
+	float:left;
+
+}
+#Present
+{
+	width: 460px;
+	float:right;
+	margin-right: 100px;
+}
+#Education
+{
+	width: 350px;
+	float:left;
+}
+h2
+{
+	text-align: center;
+}

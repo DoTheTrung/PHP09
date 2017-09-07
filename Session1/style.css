@@ -1,0 +1,18 @@
+h1
+{
+	font-size: 30px;
+	color:yellow;
+	margin-left: 430px;
+}
+/* comment */
+img
+{
+	margin-left: 200px;
+	width:1000px;
+	height:500px;
+}
+p
+{
+	font-family: Arial;
+	color: green;
+}

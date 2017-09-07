@@ -1,0 +1,51 @@
+img
+{
+	float:left;
+	margin-right: 120px;
+}
+h1.San
+{
+	color:yellow;
+	text-shadow: 1px 4px;
+	font-size: 25px;
+}
+h2.bri
+{
+	color:#2ecc71;
+	font-size: 25px;
+}
+h2.year
+{
+	font-size: 30px;
+	padding-top: 150px;
+}
+p.lastrow
+{
+	text-align: right;
+}
+a.green
+{
+	color:#2ecc71;;
+}
+p.go
+{
+	margin-left: 35px;
+}
+header
+{
+	margin-left: 210px;
+	margin-right: 80px;
+	margin-bottom: -20px;
+}
+section
+{
+	margin-left: 210px;
+	margin-right: 100px;
+}
+footer
+{
+	margin-left: 210px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
