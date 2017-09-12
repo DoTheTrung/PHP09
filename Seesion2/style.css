@@ -1,0 +1,28 @@
+.third
+{
+	color:green;
+}
+h2
+{
+	width: 150px;
+	border: 5px solid red;
+	padding:10px;
+	padding-right:15px;
+	padding-top: 40px;
+
+	margin-left: 350px;
+	margin-top: 120px; 
+}
+h1
+{
+	text-align: center;
+	color: red;
+	width:400px;
+	border: 8px dashed blue;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+
+	margin-left: 400px;
+}
