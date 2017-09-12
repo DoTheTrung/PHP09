@@ -1,0 +1,128 @@
+#nav_bar1
+{
+	height:80px;
+}
+#nav_bar2
+{
+	margin-top: 100px;
+}
+p.nv1
+{
+	font-size:25px;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+p.nv2
+{
+	font-size:25px;
+	font-weight: bold;
+	border-top: 1px solid black;
+}
+ul
+{
+	width:70%;
+}
+ul#main li
+{
+	border-right: 2px solid black;
+	float: left;
+	list-style-type: none;
+}
+ul li.Home
+{
+	float:left;
+}
+ul li.News
+{
+	float:left;
+	margin-left: 12%;
+}
+ul li.ContactUs
+{
+	float:left;
+	margin-left: 12%;
+}
+ul li.AboutUs
+{
+	float:left;
+	margin-left: 12%;
+}
+ul li.Home2
+{
+	float:left;
+}
+ul li.News2
+{
+	float:left;
+	;
+}
+ul li.ContactUs2
+{
+	float:left;
+	
+}
+ul li.AboutUs2
+{
+	float:left;
+	
+}
+a
+{
+	padding-right: 20px;
+	color:blue;
+}
+ul li.ContactUs a
+{
+	text-decoration: none;
+}
+#dropdown-menu li{
+	border: none !important;
+}
+#nav_bar2 ul li a
+{
+	text-decoration: none;
+	text-align: center;
+	background-color: blue;
+	font-weight: bold;
+	color:white;
+	display: block;
+	width: 160px;
+	height: 40px;
+	padding-top: 15px;
+}
+#nav_bar2 ul li 
+{
+	margin-bottom: .5em;
+	border: 1px solid white;
+	float:left;
+
+}
+#nav_bar2 ul li.ContactUs2 a
+{
+	color:yellow;
+}
+ul#main li.dropdown 
+{
+	border: none;
+}
+ul#main li.dropdown ul#dropdown-menu
+{
+	display: none;
+	border: none;
+}
+ul#main li.dropdown:hover ul#dropdown-menu
+{
+	display: block;
+}
+#dropdown-menu
+{
+	border: none;
+}
+#nav_bar2 ul li.ContactUs2 ul
+{
+	display: none;
+}
+#nav_bar2 ul li.ContactUs2:hover ul
+{
+	display: block;
+}

@@ -1,0 +1,55 @@
+ul
+{
+	width:70%;
+	height:3%;
+}
+ul li.Home
+{
+	list-style-image: url(home.ico);
+	float:left;
+	margin-right: 12%;
+}
+ul li.News
+{
+	list-style-image: url(news.ico);
+	float:left;
+	margin-right: 12%;
+}
+ul li.Music
+{
+	list-style-image: url(music.ico);
+	float:left;
+	margin-right: 12%;
+}
+ul li.Football
+{
+	list-style-image: url(football.ico);
+	float:left;
+	margin-right: 12%;
+}
+ul li.Volleyball
+{
+	list-style-image: url(volleyball.ico);
+	float:left;
+	margin-right: 12%;
+}
+ol.UpperAlpha
+{
+	margin-left: 5%;
+	list-style-type: upper-alpha;
+}
+ol.UpperRoman
+{
+	margin-left: 5%;
+	list-style-type: upper-roman;
+}
+a:hover
+{
+	color:green;
+	text-decoration: none;x
+}
+a:visited
+{
+	color:yellow;
+	
+}
