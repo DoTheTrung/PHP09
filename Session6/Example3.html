@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example3</title>
+	<link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+	<form name="email_form" action="" method="post">
+		<p>Please enter your email address to subscribe to our newsletter</p>
+		<p>Username: <input type="text" name="username" placeholder="Enter your Username"></p>
+		<p>Password: <input type="Password" name="password" maxlength="6" placeholder="Enter your Password" title="Must be 6+ alphanumeric"></p>
+		<p>ID: <input type="hidden" name="id"></p>
+		Gender: <input type="radio" name="gender" value="Male">Male
+		<input type="radio" name="gender" value="Female">Female
+		<br>
+		Social:
+		<br>
+		<input type="checkbox" name="social" value="facebook">Facebook <br>
+		<input type="checkbox" name="social" value="Instagram">Instagram <br>
+		<input type="checkbox" name="social" value="Twitter">Twitter <br>
+		Country:
+		<select>
+			<option value="VietNam">Vietnam</option>
+			<option value="Japan">Japan</option>
+			<option value="England">England</option>
+		</select><br>
+		Avatar: <input type="file" name="avatar"><br>
+		Comment: <br>
+		<textarea name="" id="" cols="55" rows="7" placeholder="Please enter your comment"></textarea>
+		<div id="btn">
+			<input id="submit" type="submit" name="submit" value="Subscribe">
+			<input id="reset" type="reset" name="reset" value="Reset">
+			<input id="buy" type="image" name="buy" src="buy.png">
+		</div>
+	</form>
+</body>
+</html>

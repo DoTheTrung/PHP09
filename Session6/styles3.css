@@ -1,0 +1,17 @@
+form {
+	border:1px solid black;
+	box-shadow: 5px 5px 15px;
+	padding: 5px 20px;
+	width: 430px;
+	height: 490px;
+	background-color: #F5F5F5;
+}
+#submit
+{
+	margin-left: 10px;
+}
+#buy
+{
+	width:80px;
+	height:25px;
+}

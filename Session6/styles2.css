@@ -1,0 +1,25 @@
+table
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+	box-shadow: 2px 2px 10px;
+}
+th,td
+{
+	border: 1px solid black;
+	padding: 7px;
+	text-align: left;
+}
+thead, tfoot
+{
+	background: aqua;
+}
+tfoot
+{
+	font-weight: bold;
+}
+#center
+{
+	text-align: center;
+}
+t
