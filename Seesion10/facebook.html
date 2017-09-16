@@ -40,7 +40,7 @@
 				<input type="text" id="lastName" placeholder="Last Name"><br><br>
 				<input type="text" id="Iemail" placeholder="Your Email Address"><br><br>
 				<input type="text" id="reEmail" placeholder="Re-enter email address"><br><br>
-				<input type="password" id="newPassword" placeholder="New Password"><br><br>
+				<input type="password" id="newPassword" name="newPassword" placeholder="New Password"><br><br>
 				
 			</div> <!--  information  -->
 			
@@ -117,6 +117,20 @@
 
 	
   	<script type="text/javascript">
+  		// function createYear()
+  		// {
+  		// 	var optionText = "<option>Year</option>";
+  		// 	var selectedYear = "";
+  		// 	for (var i =1970; i<2017; i++){
+  		// 		if(i==1999){
+  		// 			selectedYear = "selected";
+  		// 		}else{
+  		// 			selectedYear = "";
+  		// 		}
+
+  		// 		optionText += "<option value='""'
+  		// 	}
+  		// }
   		function checkEmail() {
 			var email = document.getElementById('Iemail');
 			var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
@@ -160,11 +174,50 @@
 			}
 			
 		}
+		function checkDate()
+		{
+			var date = document.getElementById("date").value;
+			var month = document.getElementById("month").value;
+			var year = document.getElementById("year").value;
+			if (month == "February") {
+	            if (((year % 4) == 0 && (year % 100) != 0) || ((year % 400) == 0 && (year % 100) == 0)) {
+	                if (day > 29)
+	                    alert('Date input not valid');
+	            } else {
+	                if (day > 28)
+	                    alert('Date input not valid');
+	            }      
+        	}
+		}
+		function checkReEmail()
+		{
+			var email = document.getElementById("Iemail").value;
+			var reEmail = document.getElementById("reEmail").value;
+			if(email != reEmail)
+			{
+				alert('reEmail not valid');
+				return false;
+			}
+		}
+		function checkPassWord()
+		{
+			var password = document.getElementById("newPassword").value;
+			var re = /[0-9]/;
+		      if(!re.test(password.value)) {
+		        alert('Error: password must contain at least one number (0-9)!');
+		        password.focus;
+		        return false;
+		      }
+		}
 		function solve()
 		{
 			border();
 			checkEmail();
 			//ValidateForm();
+			checkDate();
+			checkReEmail();
+			checkPassWord();	
+
 		}
   	</script>
 </body>
