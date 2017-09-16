@@ -1,0 +1,66 @@
+header
+{
+	height: 30px;
+	margin-top: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-left: 100px;
+	padding-top: 3px;
+	padding-bottom: 45px;
+	font-weight: bold;
+	background-color: #DCDCDC;
+	font-size: 20px;
+}
+section
+{
+	
+	height:50px;
+	margin-top: 85px;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-bottom: 170px;
+	font-weight: bold;
+	background-color: #DCDCDC;
+	font-size: 20px;
+}
+.video
+{
+	border: 1px solid #FF0000;
+	background-color: #FF0000;
+	float:left;
+	margin-left: 10px;
+	padding-left: 30px;
+	padding-bottom: 70px;
+	padding-right: 90px;
+	font-weight: bold;
+	font-size: 20px;
+}
+.playlist
+{
+	border: 1px solid #2ecc71;
+	background-color: #2ecc71;
+	margin-right: 10px;
+	margin-left: 20px;
+	padding-bottom: 70px;
+	padding-right: 40px;
+	padding-left: 60px;
+	font-weight: bold;
+	font-size: 20px;
+	float:right;
+}
+footer
+{
+	
+	margin-top: 85px;
+	margin-left: 400px;
+	margin-right: 400px;
+	padding-left: 60px;
+	padding-bottom: 17px;
+	padding-top: 5px;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #DCDCDC;
+
+}
+
+	

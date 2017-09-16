@@ -1,0 +1,42 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	margin:0%;
+	color:white;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	height: 100%;
+}
+#left
+{
+	background-color: rgb(185, 255, 255);
+	width:25%;
+	height:100%;
+	float:left;
+}
+#content1
+{
+	background-color: #ffcc00;
+	width:25%;
+	height:100%;
+	float:left;
+}
+#content2
+{
+	background-color: rgb(127, 140, 141);
+	width:25%;
+	height:100%;
+	float:left;
+}
+#right
+{
+	background-color: rgb(52, 152, 219);
+	width:25%;
+	height:100%;
+	float:left;
+}
