@@ -1,0 +1,78 @@
+h1
+{
+	font-size: 120%;
+	color:blue;
+	transition: font-size 3s ease-out 1s, color 5s ease-in 1s;
+	opacity: 1;
+}
+h1:hover
+{
+	cursor:pointer;
+	font-size: 180%;
+	color: red;
+	opacity: 0.1;
+}
+h2
+{
+	margin-left: 20%;
+	color:blue;
+	animation: moveright 3s 2s infinite ease-in-out alternate;
+}
+@keyframes moveright
+{
+	form
+	{
+		margin-left: 20%;
+		color:blue;
+	}
+	to
+	{
+		margin-left: 60%;
+		color: red;
+	}
+}
+.image10:hover
+{
+	filter: sepia(80%);
+}
+.image1
+{
+	transition: 2s;
+}
+.image1:hover
+{
+	transform: rotateY(180deg);
+	transform-origin: right;
+}
+.image2:hover
+{
+	transform: matrix(0.5, 0.5, -0.5,1, 0, 0);
+}
+.image3:hover
+{
+	transform: rotate(20deg);
+}
+.image4:hover
+{
+	transform: scaleX(1.4);
+}
+.image5:hover
+{
+	transform: scaleY(1.4);
+}
+.image6:hover
+{
+	transform: skewX(-20deg);
+}
+.image7:hover
+{
+	transform: skewY(-30deg);
+}
+.image8:hover
+{
+	transform: translateX(30px);
+}
+.image9:hover
+{
+	transform: translateY(30px);
+}
