@@ -1,0 +1,138 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+#banner
+{
+	width:100%;
+	float:left;
+	background-color: #3B5998;
+	height:100px;
+}
+#left
+{
+	margin-bottom: 10px;
+	float:left;
+}
+#left h3
+{
+	float: left;
+    color: white;
+    font-size: 42px;
+    margin-left: 211px;
+    margin-top: 32px;
+}
+#left a
+{
+	text-decoration: none;
+	color:white;
+}
+#right
+{
+	width: 50%;
+    float: right;
+    margin-right: -45px;
+    margin-top: 15px;
+   
+}
+#mail
+{
+	float:left;
+	margin-top: -11px;
+}
+#pass
+{
+	float:left;
+	margin-left: 13px;
+    margin-top: -11px;
+}
+#login
+{
+	margin-left: 369px;
+    margin-top: -51px;
+    float: left;
+    /* color: #415E9B; */
+    background-color: #0000b3;
+    color: white;
+    padding: 1px;
+    border: none;
+    padding: 2px 2px;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+}
+p
+{
+	color: white;
+	font-size:12px;
+	margin-bottom: 3px;
+
+}
+#section
+{
+	float:left;
+	background-color: #E9EBEE;
+	width:100%;
+	height:600px;
+}
+#leftSection
+{
+	margin-left: 187px;
+    margin-top: 53px;
+    width: 34%;
+}
+#rightSection
+{
+	width: 50%;
+    float: right;
+    margin-top: -331px;
+    margin-right: -51px;
+}
+
+#Iemail,#reEmail,#newPassword
+{
+	width:346px;
+}
+.error {
+    display:none;
+    color:red;
+}
+#sign
+{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    padding-left: 33px;
+    padding-right: 86px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+}
+.information input
+{
+   	width: 25%;
+    padding: 8px 14px;
+    margin: -3px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.birthday a
+{
+	text-decoration: none;
+	margin-right: 10px;
+}
+.birthday p
+{
+	color: #997777;
+    float: right;
+    margin-right: 345px;
+    margin-top: -8px;
+    margin-bottom: 13px;
+}
+
+
+

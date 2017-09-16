@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Facebook</title>
+	<link rel="stylesheet" href="facebook.css">
+</head>
+<body>
+
+	<div id="banner">
+		<div id="left">
+			<h3><a href="facebook.com">facebook</a></h3>
+		</div>
+		<div id="right">
+			<div id="mail">
+				<p>Email or Phone</p>
+				<input type="text" name="email" id="email">
+			</div>
+			<div id="pass">
+				<p>Password</p>
+				<input type="password" name="password" id="password">
+				<p>Forgotten your password?</p>
+			</div>
+				<input type="button" id="login" value="Log in">
+			
+		</div>
+	</div>
+	<div id="section">
+		<div id="leftSection">
+			<h2 style="color:#3B5998;font-weight: bold;">Facebook helps you connect and share with the people in your life.</h2>
+			<img src="connectFacebook.png" alt="">
+		</div>
+		<div id="rightSection">
+			
+			<div class="information">
+
+				<h1>Sign Up</h1>
+				<h5>It's free and always will be</h5>
+				<input type="text" id="firstName" placeholder="First Name">
+				<span id="wronglname" class="error">This is a required field</span>
+				<input type="text" id="lastName" placeholder="Last Name">
+				<span id="wrongname" class="error">This is a required field</span> <br><br>
+				<input type="text" id="Iemail" placeholder="Your Email Address">
+				<span id="wrongemail" class="error"></span> <br><br>
+				<input type="text" id="reEmail" placeholder="Re-enter email address">
+				<span id="wrongremail" class="error">This is a required field</span> <br><br>
+				<input type="password" id="newPassword" placeholder="New Password">
+				<span id="newpass" class="error">This is a required field</span> <br>
+			</div> <!--  information  -->
+			
+			<div class="birthday">
+				<h3>Birthday</h3>
+				<select name="date" id="date">
+					<option>1</option>       
+				    <option>2</option>       
+				    <option>3</option>       
+				    <option>4</option>       
+				    <option>5</option>       
+				    <option>6</option>       
+				    <option>7</option>       
+				    <option>8</option>       
+				    <option>9</option>       
+				    <option>10</option>       
+				    <option>11</option>       
+				    <option>12</option>       
+				    <option>13</option>       
+				    <option>14</option>       
+				    <option>15</option>       
+				    <option>16</option>       
+				    <option>17</option>       
+				    <option>18</option>       
+				    <option>19</option>       
+				    <option>20</option>       
+				    <option>21</option>       
+				    <option>22</option>       
+				    <option>23</option>       
+				    <option>24</option>       
+				    <option>25</option>       
+				    <option>26</option>       
+				    <option>27</option>       
+				    <option>28</option>       
+				    <option>29</option>       
+				    <option>30</option>       
+				    <option>31</option>       
+				</select>
+				<select name="month" id="month">
+					<option>January</option>       
+				    <option>February</option>       
+				    <option>March</option>       
+				    <option>April</option>       
+				    <option>May</option>       
+				    <option>June</option>       
+				    <option>July</option>       
+				    <option>August</option>       
+				    <option>September</option>       
+				    <option>October</option>       
+				    <option>November</option>       
+				    <option>December</option>       
+				</select>
+				<select name="year" id="year">
+					<option>2009</option>       
+				    <option>2010</option>       
+				    <option>2011</option>       
+				    <option>2012</option>       
+				    <option>2013</option>       
+				    <option>2014</option>       
+				    <option>2015</option>       
+				    <option>2016</option>       
+				    <option>2017</option>       
+				    <option>2018</option>       
+				</select>
+				<br><br>
+				<input type="radio" name="gender" value="female"> Female
+				<input type="radio" name="gender" value="male"> Male<br><br>
+			  	<input type="button" value="SignUp" id="sign" style="width:100px;" onclick="solve()">
+		  </div><!-- class birthday -->
+		</div> <!-- rightsection -->
+	</div> <!--Section-->
+
+	
+  	<script type="text/javascript">
+  		function checkEmail() {
+			var email = document.getElementById('Iemail');
+			var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+			if (!filter.test(email.value)) {
+			alert('Please input a valid email address');
+			email.focus;
+			return false;
+			}
+		}
+		function ValidateForm() {
+
+		    var hasError = false;
+
+		    if (document.getElementById('firstName').value == "") {
+		        document.getElementById('wronglname').style.display = "inline";
+		        hasError = true;
+		    } else {
+		        document.getElementById('wrongname').style.display = "none";   
+		    }
+	        if (document.getElementById('lastName').value == "") {
+	        	document.getElementById('wrongname').style.display = "inline";
+	        	hasError = true;
+		    } else {
+		        document.getElementById('wrongname').style.display = "none";   
+		    }
+		    if (document.getElementById('reEmail').value == ""){
+		       document.getElementById('wrongremail').style.display = "inline";
+			   hasError = true;	
+		    } else {
+		    	document.getElementById('wrongname').style.display = "none";
+		    }
+		     if (document.getElementById('newPassword').value == ""){
+		       document.getElementById('newpass').style.display = "inline";
+			   hasError = true;	
+		    } else {
+		    	document.getElementById('wrongname').style.display = "none";
+		    }
+		    return !hasError;
+		}
+		function border()
+		{
+			if(document.getElementById('firstName').value == "")
+			{
+				document.getElementById("firstName").style.border = "1px solid red";
+			}
+			if(document.getElementById('lastName').value == "")
+			{
+				document.getElementById("lastName").style.border = "1px solid red";
+			}
+			if(document.getElementById('Iemail').value == "")
+			{
+				document.getElementById("Iemail").style.border = "1px solid red";
+			}
+			if(document.getElementById('reEmail').value == "")
+			{
+				document.getElementById("reEmail").style.border = "1px solid red";
+			}
+			if(document.getElementById('newPassword').value == "")
+			{
+				document.getElementById("newPassword").style.border = "1px solid red";
+			}
+			
+		}
+		function solve()
+		{
+			
+			//ValidateForm();
+			border();
+			checkEmail();
+		}
+  	</script>
+</body>
+</html>
