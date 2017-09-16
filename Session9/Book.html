@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Book Room</title>
+</head>
+<body>
+	<form action="">
+		<div id="room">
+			<p>Room</p>
+			<select name="chooseRoom" id="chooseRoom">
+				<option value="1">001</option>
+				<option value="2">002</option>
+				<option value="3">003</option>
+				<option value="4">004</option>
+				<option value="5">005</option>
+			</select>
+			<p>Email: </p>
+			<input type="txtEmail" id="txtEmail" pattern="[^ @]*@[^ @]*" placeholder="Enter your email">
+		</div>
+		<div id="people">
+			<p>Adults</p>
+			<input type="text" name="adults" id="adults">
+			<p>Children</p>
+			<input type="text" name="children" id="children">
+		</div>
+		<div id="date">
+			<p>Arrival Date</p>
+			<input type="date" name="arrivalDate" id="arrivalDate">
+			<p>Departure Date</p>
+			<input type="date" name="departureDate" id="departureDate">
+		</div>
+		<select name="chooseGender" id="chooseGender">
+			<option value="mr">Mr</option>
+			<option value="ms">Ms</option>
+		</select>
+		<input type="color" name="color" id="color">
+		<img src="" alt="" id="imageGender">
+		<br>
+		<br>
+		<input type="button" id="booking" onclick="solve()" value="Booking">
+	</form>
+	<img src="pictureNot.jpg" alt="Image" id ="imageGender" style="border:3px solid gray;width: 400px;">
+
+		<p onmousemove="getInfo('ronado.jpg',150)">Ronaldo</p>
+		<p onmousemove="getInfo('messi.jpg',150)">Messi</p>
+		<p onmousemove="getInfo('brock.jpg',200)">Brock</p>
+		<p onmousemove="getInfo('therock.jpg',200)")>The Rock</p>
+		<img src="pictureNot.jpg" alt="Image" id="imageChange" style="border:3px solid gray;width: 400px;">
+		
+	
+	<script type="text/javascript"  src="bookScript.js"></script>
+</body>
+</html>

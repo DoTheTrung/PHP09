@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Example3</title>
+	<link rel="shortcut" href="favicon.ico">
+</head>
+<body>
+	<form action="">
+		<p>Price: </p>
+		<input type="text" name="price" id="price" onchange= '
+			document.getElementById("printPrice").innerHTML = 
+			document.getElementById("price").value'>
+		<p>Discount: </p>
+		<input type="text" name="discount" id="discount"> <br> <br>
+		<input type="button" value="buy" onclick= 'document.getElementById("printDiscount").innerHTML = 
+		document.getElementById("price").value - (
+		document.getElementById("price").value * 
+		(document.getElementById("discount").value/100))'> <br><br> 
+		<p id="printPrice"></p>
+		<p id="printDiscount"></p>
+	</form>
+
+	
+</body>
+</html>
